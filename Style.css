@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+   background-color: #1b1515;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+span{
+  color:#e69a61;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.top-nav nav{
+  float: right;
+}
+.top-nav ul {
+    display: flex;
+    margin-right: 90px;
+}
+.top-nav ul li{
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: white;
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 40px;
+    cursor : pointer;
+    transition: color 0.2s ease-in;
+
+}
+.top-nav ul li:hover{
+color: black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-right img{
+height: 600px;
+width: 600px;
+}
+.col-left{
+    max-width: 700px;
+    justify-content: center;
+}
+.col-left h1{
+    color: white;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 40px;
+}
+.col-left p{
+    line-height: 23px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'roboto';
+    font-weight: lighter;
+}
+.circles{
+    display: flex;
+    margin-top: 40px;
+}
+.circle1{
+    height: 10px;
+    width: 10px;
+    background-color: #e69a61;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.circle2{
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:#1b1515 ;
+}
+hr{
+    width: 150px;
+    background-color: #e69a61;
+    border: 2px solid #e69a61;
+    margin-bottom: 40px ;
+    margin-top: 30px;
+}
+
+.box{position: relative;
+    display: flex;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #e69a61;
+    border-radius: 20px;
+    padding:5px;
+}
+.box img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 5px;
+}
+input{
+    position: absolute;
+    color: white;
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 210px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+   
+}
+input:focus{
+    padding-bottom: 5px;
+    outline: none;
+    font-size: 20px;
+}
+.social {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    top:50%;
+}
+.social img{
+    margin-bottom: 30px;
+    height: 25px;
+    width: 25px;
+    transition:  transform 0.3s ease-in;
+    cursor:pointer;
+}
+.social img:hover{
+    transform : scale(1.5);
+}
+
